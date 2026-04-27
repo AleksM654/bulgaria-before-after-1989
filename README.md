@@ -19,11 +19,12 @@ Cleaned intermediate tables are saved locally in `data/processed/` and then load
 - Population
 - Fertility rate or birth rate
 - Infant mortality
-- Life expectancy
+
 
 ## Current data sources
 - World Bank - main long-run source currently used for demographic and health indicators from 1960 onward
 - National Statistical Institute (NSI), Bulgaria - supplementary population data currently collected for the period 2001-2024
+- Eurostat - supplementary population data currently collected for the period 2001-2023
 
 ## Data folders
 
