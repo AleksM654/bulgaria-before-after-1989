@@ -26,17 +26,22 @@ Cleaned intermediate tables are saved locally in `data/processed/` and then load
 - National Statistical Institute (NSI), Bulgaria - supplementary population data currently collected for the period 2001-2024
 - Eurostat - supplementary population data currently collected for the period 2001-2023
 
+## Data access
+
+The data files used in this project are stored outside the GitHub repository.
+
+To run the notebooks locally, download the data files from the external storage folder and place them in the following project directories:
+
+- `data/raw/`
+- `data/processed/`
+
+The repository keeps the folder structure, but the actual data files are excluded from version control.
+
+External data location:
+[Google Drive folder](https://drive.google.com/drive/folders/1pXO6BvHH6eOApFvEkAB3KFogK9Dr0W85?usp=drive_link)
+
+
 ## Data folders
 
 - `data/raw/` contains the original source files used for inspection and cleaning
 - `data/processed/` contains cleaned intermediate tables generated during the workflow
-
-## Data access
-
-The notebooks are configured to use project-relative paths.
-
-The current workflow expects the raw datasets to be stored locally in `data/raw/`, while cleaned intermediate tables are stored in `data/processed/`.
-
-
-## Status
-Project setup in progress.
